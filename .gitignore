@@ -1,5 +1,7 @@
 mariadb-init/
 modules/contrib/
+*.sql
+*.tar.gz
 
 # This file contains default .gitignore rules. To use it, copy it to .gitignore,
 # and it will cause files like your settings.php and user-uploaded files to be
@@ -27,6 +29,7 @@ sites/*/services*.yml
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+config
 
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
